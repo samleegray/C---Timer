@@ -1,5 +1,7 @@
 Example source code can be found in the main.cpp file. If you have any issues with this, please let me know. I have used this code in several of my other projects without issue. Enjoy! :)
 
+This is licensed with the MIT license. The full license information can be found in LICENSE.txt.
+
 Example code copied & pasted directly from main.cpp:
 
 	#include <iostream>

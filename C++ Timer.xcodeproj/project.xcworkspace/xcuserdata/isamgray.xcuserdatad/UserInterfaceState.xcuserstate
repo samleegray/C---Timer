@@ -347,9 +347,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>323555474.06355798</real>
-		<string>{54, 1845}</string>
-		<string>{1061, 0}</string>
+		<real>323556352.81231397</real>
+		<string>{0, 1630}</string>
+		<string>{0, 1093}</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -405,9 +405,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>323554837.70867503</real>
-		<string>{0, 756}</string>
-		<string>{542, 0}</string>
+		<real>323556377.08676797</real>
+		<string>{0, 1726}</string>
+		<string>{621, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -453,9 +453,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>323554836.96559799</real>
-		<string>{0, 1180}</string>
-		<string>{0, 0}</string>
+		<real>323556374.881037</real>
+		<string>{0, 1857}</string>
+		<string>{1094, 0}</string>
 		<integer>0</integer>
 		<dict>
 			<key>$class</key>
@@ -887,7 +887,7 @@
 				<integer>89</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/main.cpp</string>
+		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -905,7 +905,7 @@
 				<integer>91</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.h</string>
+		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -923,7 +923,7 @@
 				<integer>93</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.cpp</string>
+		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/main.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -981,7 +981,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>270</integer>
+					<integer>269</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1100,7 +1100,7 @@
 		<string>IDEWorkspaceTabControllerDesignAreaSplitView</string>
 		<string>IDEShowUtilities</string>
 		<string>IDEEditorArea</string>
-		<string>main.cpp</string>
+		<string>Timer.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1545,7 +1545,7 @@
 		</dict>
 		<string>C++ Timer</string>
 		<string>Source</string>
-		<string>main.cpp</string>
+		<string>Timer.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1783,7 +1783,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>235</integer>
+					<integer>234</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1795,11 +1795,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>261</integer>
+					<integer>260</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>269</integer>
+					<integer>268</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1983,7 +1983,7 @@
 				<integer>21</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/main.cpp</string>
+			<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.h</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -2138,7 +2138,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>233</integer>
+					<integer>232</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2212,7 +2212,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>230</integer>
+					<integer>162</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2224,7 +2224,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>231</integer>
+					<integer>230</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2235,7 +2235,7 @@
 		<string>DocumentNavigableItemName</string>
 		<string>DocumentExtensionIdentifier</string>
 		<string>DocumentURL</string>
-		<string>public.c-plus-plus-source</string>
+		<string>public.c-header</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2367,10 +2367,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>323555474.065373</real>
-		<string>{54, 1845}</string>
-		<string>{1061, 0}</string>
-		<string>Test::doThis(void)</string>
+		<real>323556377.08814299</real>
+		<string>{0, 1726}</string>
+		<string>{621, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2385,10 +2384,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>232</integer>
+				<integer>231</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/main.cpp</string>
+		<string>file://localhost/Users/isamgray/Dropbox/C++%20Timer/Timer.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2399,7 +2398,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>234</integer>
+					<integer>233</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2412,6 +2411,10 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>235</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>236</integer>
@@ -2432,10 +2435,6 @@
 					<key>CF$UID</key>
 					<integer>240</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>241</integer>
-				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
@@ -2445,11 +2444,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>242</integer>
+					<integer>241</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>244</integer>
+					<integer>243</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2457,11 +2456,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>247</integer>
+					<integer>246</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>255</integer>
+					<integer>254</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2481,7 +2480,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>243</integer>
+					<integer>242</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -2503,14 +2502,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>245</integer>
+					<integer>244</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>246</integer>
+					<integer>245</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2533,7 +2532,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>248</integer>
+					<integer>247</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2547,11 +2546,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>249</integer>
+					<integer>248</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>252</integer>
+					<integer>251</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2576,11 +2575,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>250</integer>
+					<integer>249</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>251</integer>
+					<integer>250</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2607,11 +2606,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>253</integer>
+					<integer>252</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>254</integer>
+					<integer>253</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2634,7 +2633,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>256</integer>
+					<integer>255</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2648,11 +2647,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>257</integer>
+					<integer>256</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>259</integer>
+					<integer>258</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2677,11 +2676,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>250</integer>
+					<integer>249</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>258</integer>
+					<integer>257</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2707,11 +2706,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>253</integer>
+					<integer>252</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>260</integer>
+					<integer>259</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2733,7 +2732,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>262</integer>
+					<integer>261</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2747,11 +2746,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>263</integer>
+					<integer>262</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>266</integer>
+					<integer>265</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2776,11 +2775,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>264</integer>
+					<integer>263</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>265</integer>
+					<integer>264</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2807,11 +2806,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>267</integer>
+					<integer>266</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>268</integer>
+					<integer>267</integer>
 				</dict>
 			</array>
 		</dict>
