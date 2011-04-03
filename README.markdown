@@ -22,7 +22,7 @@ Example code copied & pasted directly from main.cpp:
 	{
 	public:
 	    void doThis(void);
-		static void staticCppFunction(void *classPointer, void **voidArray);
+		static void staticCppFunction(void *classPointer, vector<void *> voidVector);
 		void taduh(void);
 	};
 
@@ -45,19 +45,24 @@ Example code copied & pasted directly from main.cpp:
 		 fith parameter: the number(not 0 indexed) of variables your sending along
 		 6th to infinity paramters: whatever you want to send */
 	    newTimer->startTimer(1, true, (void *)newTest, this->staticCppFunction, 3, (void *)&myFloat, (void *)&myInt, (void *)charPtr);
+    
+	    char blah[20];
+		fgets(blah, 20, stdin);
+    
+	    newTimer->killTimer();
 	}
 
 	/* ALL callback functions must be declared as this one is, it must be declared as static, and have these two parameters */
-	void Test::staticCppFunction(void *classPointer, void **voidArray)
+	void Test::staticCppFunction(void *classPointer, vector<void *> voidVector)
 	{	
 		/* all the variables you sent along with the startTimer function get sent here, in the same order you sent them
 		 they get put into the voidArray passed as a parameter here */
 	
-		float *myFloat = (float *)voidArray[0];
-		int *myInt = (int *)voidArray[1];
-		char *myChar = (char *)voidArray[2];
+		float myFloat = *(float *)voidVector.at(0);
+		int myInt = *(int *)voidVector.at(1);
+		char *myChar = (char *)voidVector.at(2);
     
-	    printf("%f %d %s\n", *myFloat, *myInt, myChar);
+	    printf("%f %d %s\n", myFloat, myInt, myChar);
     
 		/* sent the class as a void pointer so then you can turn it back into the class you used, and have all the
 		 class's methods and the class's variables */
@@ -74,9 +79,6 @@ Example code copied & pasted directly from main.cpp:
 	{
 		Test *test = new Test;
 	    test->doThis();
-	
-		char blah[20];
-		fgets(blah, 20, stdin);
 	
 	    return 0;
 	}

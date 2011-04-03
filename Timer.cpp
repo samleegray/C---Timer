@@ -22,7 +22,7 @@
 
 #include "Timer.h"
 
-void Timer::startTimer(float inInterval, bool inRepeat, void *inClassVoidPtr, void (*inFunctionVoidPtr)(void *, void **), int numOfVals, ...)
+void Timer::startTimer(float inInterval, bool inRepeat, void *inClassVoidPtr, void (*inFunctionVoidPtr)(void *, vector<void *>), int numOfVals, ...)
 {
     /* set everything, and create what's needed */
     interval = inInterval;
@@ -31,18 +31,22 @@ void Timer::startTimer(float inInterval, bool inRepeat, void *inClassVoidPtr, vo
     repeat = inRepeat;
     numOfVoids = numOfVals;
     voidArray = new void*[numOfVoids];
-    pthread_t threadID;
     
     va_list list;
     va_start(list, numOfVals);
     
+    printf("START!\n");
     int i;
     for(i = 0; i < numOfVoids; i++)
     {
-        voidArray[i] = va_arg(list, void *);
+        //voidArray[i] = va_arg(list, void *);
+        void *var = va_arg(list, void *);
+        voidVector.push_back(var);
     }
     
     va_end(list);
+    
+    printf("float:%f int:%d\n", *(float *)voidVector.at(0), *(int *)voidVector.at(1));
     
     if(pthread_create(&threadID, NULL, Timer::TimerMain, (void *)this) != 0)
     {
@@ -60,13 +64,13 @@ void *Timer::TimerMain(void *inTimer)
 		{
 			usleep(timer->interval * MAC_CONVERSION);
 			if(timer->repeat != false)
-			timer->voidFunction(timer->classPointer, timer->voidArray);
+			timer->voidFunction(timer->classPointer, timer->voidVector);
 		}
 	}
 	else 
 	{
 		usleep(timer->interval * MAC_CONVERSION);
-		timer->voidFunction(timer->classPointer, timer->voidArray);
+		timer->voidFunction(timer->classPointer, timer->voidVector);
 	}
     
 	pthread_detach(pthread_self());
@@ -75,5 +79,7 @@ void *Timer::TimerMain(void *inTimer)
 
 void Timer::killTimer(void)
 {
-	repeat = false;
+    pthread_detach(threadID);
+    pthread_cancel(threadID);
+    voidVector.clear();
 }

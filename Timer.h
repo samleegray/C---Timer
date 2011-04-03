@@ -23,24 +23,29 @@
 #include <iostream>
 #include <unistd.h>
 #include <pthread.h>
+#include <vector>
 
 #define MAC_CONVERSION 1000000
+
+using namespace std;
 
 class Timer
 {
 public:
 	//C/static C++ function timer functions
 	/*void startTimer(float inInterval, bool inRepeat, void (*inFunction)());*/
-    void startTimer(float inInterval, bool inRepeat, void *inClassVoidPtr, void (*inFunctionVoidPtr)(void *, void **), int numOfVals, ...);
+    void startTimer(float inInterval, bool inRepeat, void *inClassVoidPtr, void (*inFunctionVoidPtr)(void *, vector<void *>), int numOfVals, ...);
     static void *TimerMain(void *inTimer);
     void killTimer(void);
 	
 private:
 	//C & C++ timer shared variables
     void *classPointer;
-    void (*voidFunction)(void *, void **);
+    void (*voidFunction)(void *, vector<void *>);
     void **voidArray;
+    vector<void *> voidVector;
     int numOfVoids;
 	float interval;
 	bool repeat;
+    pthread_t threadID;
 };
