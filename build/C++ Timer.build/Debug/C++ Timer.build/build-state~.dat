@@ -1,0 +1,130 @@
+TC++ Timer
+v7
+r0
+t295293005.571826
+cCheck dependencies
+cCompileC "build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/main.o" "/Folders/Projects/Base Codes/C++ Timer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/Timer.o" "/Folders/Projects/Base Codes/C++ Timer/Timer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004AC3260600000000000038F0
+t1254303238
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC32606000000000000563E
+t1254303238
+s22078
+
+N/Folders/Projects/Base Codes/C++ Timer/Timer.cpp
+c000000004BE9950D000000000000033F
+t1273599245
+s831
+i"Timer.h"
+
+N/Folders/Projects/Base Codes/C++ Timer/Timer.h
+c000000004BE998BE00000000000001E0
+t1273600190
+s480
+i<iostream>
+i<unistd.h>
+i<pthread.h>
+i<stdio.h>
+
+N/Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp
+c000000004BE98FE60000000000000096
+t1273597926
+s150
+
+N/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/C++ Timer.LinkFileList
+c000000004BE998CD00000000000000E1
+t1273600205
+s225
+
+N/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/Timer.o
+t1273600205
+s48864
+
+N/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/TimerMain.o
+t1273597926
+s46276
+
+N/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/main.o
+t1273600205
+s47896
+
+N/Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer
+t1273600205
+s16304
+
+N/Folders/Projects/Base Codes/C++ Timer/main.cpp
+c000000004BE996CF000000000000010C
+t1273599695
+s268
+i<iostream>
+i"Timer.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295293005#295293005#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC "build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/Timer.o" "/Folders/Projects/Base Codes/C++ Timer/Timer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s295293005.296405
+e295293005.557672
+r1
+xCompileC
+xbuild/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/Timer.o
+x/Folders/Projects/Base Codes/C++ Timer/Timer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Folders/Projects/Base Codes/C++ Timer/Timer.cpp295293005#295293005#0(0"0(0#0#48"/Folders/Projects/Base Codes/C++ Timer/Timer.cpp4300911832#1351"    cd "/Folders/Projects/Base Codes/C++ Timer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-generated-files.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-own-target-headers.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-all-target-headers.hmap" -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-project-headers.hmap" "-F/Folders/Projects/Base Codes/C++ Timer/build/Debug" "-I/Folders/Projects/Base Codes/C++ Timer/build/Debug/include" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources/x86_64" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources" -c "/Folders/Projects/Base Codes/C++ Timer/Timer.cpp" -o "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/Timer.o"0#
+
+CCompileC "build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/TimerMain.o" "/Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s295290726.721415
+e295290726.948262
+r1
+xCompileC
+xbuild/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/TimerMain.o
+x/Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp295290726#295290726#0(0"0(0#0#52"/Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp4300911832#1359"    cd "/Folders/Projects/Base Codes/C++ Timer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-generated-files.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-own-target-headers.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-all-target-headers.hmap" -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-project-headers.hmap" "-F/Folders/Projects/Base Codes/C++ Timer/build/Debug" "-I/Folders/Projects/Base Codes/C++ Timer/build/Debug/include" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources/x86_64" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources" -c "/Folders/Projects/Base Codes/C++ Timer/TimerMain.cpp" -o "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/TimerMain.o"0#
+
+CCompileC "build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/main.o" "/Folders/Projects/Base Codes/C++ Timer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s295293005.295515
+e295293005.555005
+r1
+xCompileC
+xbuild/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/main.o
+x/Folders/Projects/Base Codes/C++ Timer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Folders/Projects/Base Codes/C++ Timer/main.cpp295293005#295293005#0(0"0(0#0#47"/Folders/Projects/Base Codes/C++ Timer/main.cpp4300911832#1349"    cd "/Folders/Projects/Base Codes/C++ Timer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-generated-files.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-own-target-headers.hmap" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-all-target-headers.hmap" -iquote "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/C++ Timer-project-headers.hmap" "-F/Folders/Projects/Base Codes/C++ Timer/build/Debug" "-I/Folders/Projects/Base Codes/C++ Timer/build/Debug/include" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources/x86_64" "-I/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/DerivedSources" -c "/Folders/Projects/Base Codes/C++ Timer/main.cpp" -o "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer" normal x86_64
+s295293005.557732
+e295293005.571793
+r1
+xLd
+x/Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer
+xnormal
+xx86_64
+lSLF07#2@65"Link /Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer295293005#295293005#0(0"0(0#0#0"4300911832#516"    cd "/Folders/Projects/Base Codes/C++ Timer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Folders/Projects/Base Codes/C++ Timer/build/Debug" "-F/Folders/Projects/Base Codes/C++ Timer/build/Debug" -filelist "/Folders/Projects/Base Codes/C++ Timer/build/C++ Timer.build/Debug/C++ Timer.build/Objects-normal/x86_64/C++ Timer.LinkFileList" -mmacosx-version-min=10.6 -o "/Folders/Projects/Base Codes/C++ Timer/build/Debug/C++ Timer"0#
+

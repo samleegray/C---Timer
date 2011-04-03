@@ -1,0 +1,2 @@
+/Users/sam/Dropbox/C++ Timer/main.cpp: In member function 'void Test::doThis()':
+/Users/sam/Dropbox/C++ Timer/main.cpp:17: warning: deprecated conversion from string constant to 'char*'

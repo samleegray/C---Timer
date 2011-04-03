@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2268079F1199BF00009ED538 /* C++ Timer */;
+		activeTarget = 8DD76F620486A84900D96B5E /* C++ Timer */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* C++ Timer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 226807A51199BF1E009ED538 /* Code sense */;
+		executables = (
+			2268079F1199BF00009ED538 /* C++ Timer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321237596;
+			PBXWorkspaceStateSaveDate = 321237596;
+		};
+		perUserProjectItems = {
+			22011C321325A99D003AAF9E /* PBXTextBookmark */ = 22011C321325A99D003AAF9E /* PBXTextBookmark */;
+			22011C331325A99D003AAF9E /* PBXTextBookmark */ = 22011C331325A99D003AAF9E /* PBXTextBookmark */;
+			22011CA91325B260003AAF9E /* PBXBookmark */ = 22011CA91325B260003AAF9E /* PBXBookmark */;
+			22011CAA1325B286003AAF9E /* PBXTextBookmark */ = 22011CAA1325B286003AAF9E /* PBXTextBookmark */;
+			22011CAF1325B286003AAF9E /* PBXTextBookmark */ = 22011CAF1325B286003AAF9E /* PBXTextBookmark */;
+			22011CB01325B286003AAF9E /* PBXTextBookmark */ = 22011CB01325B286003AAF9E /* PBXTextBookmark */;
+			2229DACA12B9FE7E0070F42E /* PBXTextBookmark */ = 2229DACA12B9FE7E0070F42E /* PBXTextBookmark */;
+			226B807212B9633D00A12B96 /* PBXTextBookmark */ = 226B807212B9633D00A12B96 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 226807A41199BF1E009ED538 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 910}}";
+			sepNavSelRange = "{1081, 0}";
+			sepNavVisRange = "{888, 1328}";
+			sepNavWindowFrame = "{{387, 84}, {893, 694}}";
+		};
+	};
+	22011C321325A99D003AAF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 226807AB1199BF6E009ED538 /* Timer.h */;
+		name = "Timer.h: 29";
+		rLen = 0;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 73;
+		vrLoc = 146;
+	};
+	22011C331325A99D003AAF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 226807AB1199BF6E009ED538 /* Timer.h */;
+		name = "Timer.h: 29";
+		rLen = 0;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 0;
+	};
+	22011CA91325B260003AAF9E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+	};
+	22011CAA1325B286003AAF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 226807AB1199BF6E009ED538 /* Timer.h */;
+		name = "Timer.h: 29";
+		rLen = 0;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 32;
+		vrLoc = 187;
+	};
+	22011CAF1325B286003AAF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 30";
+		rLen = 0;
+		rLoc = 1081;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 888;
+	};
+	22011CB01325B286003AAF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 226807AB1199BF6E009ED538 /* Timer.h */;
+		name = "Timer.h: 29";
+		rLen = 0;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 0;
+	};
+	2229DACA12B9FE7E0070F42E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 48";
+		rLen = 0;
+		rLoc = 1804;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 20;
+	};
+	2268079F1199BF00009ED538 /* C++ Timer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "C++ Timer";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	226807A41199BF1E009ED538 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	226807A51199BF1E009ED538 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	226807AB1199BF6E009ED538 /* Timer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 566}}";
+			sepNavSelRange = "{699, 0}";
+			sepNavVisRange = "{0, 756}";
+			sepNavWindowFrame = "{{65, 84}, {890, 694}}";
+		};
+	};
+	226807AC1199BF6E009ED538 /* Timer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 858}}";
+			sepNavSelRange = "{1343, 0}";
+			sepNavVisRange = "{147, 1087}";
+			sepNavWindowFrame = "{{710, 334}, {890, 694}}";
+		};
+	};
+	226B807212B9633D00A12B96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 226807AC1199BF6E009ED538 /* Timer.cpp */;
+		name = "Timer.cpp: 60";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 42;
+		vrLoc = 630;
+	};
+	8DD76F620486A84900D96B5E /* C++ Timer */ = {
+		activeExec = 0;
+		executables = (
+			2268079F1199BF00009ED538 /* C++ Timer */,
+		);
+	};
+}
